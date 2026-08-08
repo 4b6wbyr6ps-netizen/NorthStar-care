@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NorthStar Care Navigation & Consulting</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --secondary: #0284c7;
+      --bg: #f8fafc;
+      --text: #0f172a;
+      --card-bg: #ffffff;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--primary);
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #475569;
+      font-weight: 500;
+    }
+    .hero {
+      max-width: 800px;
+      margin: 4rem auto;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      color: #475569;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      background-color: var(--primary);
+      color: white;
+      padding: 0.8rem 1.75rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 0.5rem;
+    }
+    .btn-secondary {
+      background-color: white;
+      color: var(--primary);
+      border: 2px solid var(--primary);
+    }
+    .services {
+      max-width: 1000px;
+      margin: 4rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      padding: 2rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      border-top: 4px solid var(--secondary);
+    }
+    .card h3 {
+      color: var(--primary);
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #0f172a;
+      color: #94a3b8;
+      margin-top: 5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">✦ NORTHSTAR CARE NAVIGATION & CONSULTING</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Guiding Families Through Every Care Transition</h1>
+      <p>Leaving a hospital or rehab facility is overwhelming. You don't have to figure out medications, schedules, and care alone.</p>
+      <a href="#contact" class="btn">Begin Your Care Journey</a>
+      <a href="#services" class="btn btn-secondary">Schedule Consultation</a>
+    </section>
+
+    <section id="services" class="services">
+      <div class="card">
+        <h3>1. Consultation</h3>
+        <p>A focused conversation to evaluate your family's immediate clinical and transitional needs after hospital or rehab discharge.</p>
+      </div>
+      <div class="card">
+        <h3>2. Custom Care Plan</h3>
+        <p>A structured, easy-to-follow roadmap covering medication management, follow-up therapy, and home care support.</p>
+      </div>
+      <div class="card">
+        <h3>3. Ongoing Navigation</h3>
+        <p>Dedicated clinical advocacy and coordination to guide your family through evolving health changes with complete peace of mind.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 NorthStar Care Navigation & Consulting. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
